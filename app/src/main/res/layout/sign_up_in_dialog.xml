@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvSignUpInTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        tools:text="Войти/Зарегистрироваться"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvForgetPasswordTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/light_red"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/etTextEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/etTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/tvSignUpInTitle"
+        android:text="@string/forget_password_not_specify_email"/>
+
+    <EditText
+        android:id="@+id/etTextEmailAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvForgetPasswordTitle" />
+
+    <EditText
+        android:id="@+id/etTextPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/etTextEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/etTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/etTextEmailAddress" />
+
+    <Button
+        android:id="@+id/btGoogleAuth"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/teal_700"
+        tools:text="Google"
+        app:layout_constraintEnd_toEndOf="@+id/etTextPassword"
+        app:layout_constraintStart_toStartOf="@+id/etTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/etTextPassword" />
+
+    <Button
+        android:id="@+id/btSignUpIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/dark_blue"
+        tools:text="@string/sign_up_action"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/etTextPassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/btGoogleAuth"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btForgetPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/dark_blue"
+        android:text="@string/forget_password_action"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btSignUpIn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btSignUpIn"
+        app:layout_constraintTop_toBottomOf="@+id/btSignUpIn"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

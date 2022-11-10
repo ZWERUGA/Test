@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">BulletinBoardAppKotlin</string>
+
+    <!-- ActionBarDrawerToggle (MainActivity) -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- Main Menu Layout Strings -->
+    <!-- Header -->
+    <string name="need_auth_or_reg">Войдите или зарегистрируйтесь</string>
+    <!-- Объявления -->
+    <string name="ads_title">Объявления</string>
+    <string name="ads_mine_title">Мои объявления</string>
+    <string name="ads_cars_title">Автомобили</string>
+    <string name="ads_computers_title">Компьютеры</string>
+    <string name="ads_smartphones_title">Смартфоны</string>
+    <string name="ads_appliances_title">Бытовая техника</string>
+    <!-- Аккаунт -->
+    <string name="account_title">Аккаунт</string>
+    <string name="account_sign_up_title">Регистрация</string>
+    <string name="account_sign_in_title">Вход в аккаунт</string>
+    <string name="account_sign_out_title">Выход из аккаунта</string>
+    <string name="account_sign_in_anonymously">Гость</string>
+
+    <!-- Sign Up In Dialog Strings -->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_up_action">Зарегистрироваться</string>
+    <string name="sign_up_with_google_action">Зарегистрироваться (Google)</string>
+    <string name="sign_in_action">Войти в аккаунт</string>
+    <string name="sign_in_with_google_action">Войти в аккаунт (Google)</string>
+    <string name="sign_up_error">Не удалось зарегистрироваться!</string>
+    <string name="sign_in_error">Не удалось войти в аккаунт!</string>
+    <string name="sign_in_done">Вы успешно вошли в свой аккаунт!</string>
+    <string name="sign_out_done">Вы вышли из своего аккаунта!</string>
+    <string name="forget_password_action">Забыли пароль?</string>
+    <string name="forget_password_not_specify_email">
+        Укажите почту для сброса пароля!</string>
+    <string name="send_email_reset_password_done">
+        На указанную почту было отправлено письмо для сброса пароля!</string>
+    <string name="send_verification_email_error">
+        Не удалось отправить письмо для подтверждения аккаунта!</string>
+    <string name="send_verification_email_done">
+        На указанную почту было отправлено письмо для подтверждения аккаунта!</string>
+
+    <!-- FirebaseAuth Strings -->
+    <string name="error_email_already_in_use">
+        Адрес электронной почты уже используется другой учетной записью.</string>
+    <string name="error_invalid_email">
+        Адрес электронной почты указан в неправильном формате.</string>
+    <string name="error_wrong_password">
+        Указан неверный пароль или аккаунта с указанной почтой не существует.</string>
+    <string name="error_weak_password">
+        Указанный пароль недействителен. [Пароль должен состоять не менее 6 символов]</string>
+    <string name="error_user_not_found">
+        Нет записи пользователя, соответствующей этому идентификатору.
+        Возможно, пользователь был удален.</string>
+    <string name="link_email_with_google_done">
+        Указанный Email успешно подключен к Google аккаунту.</string>
+    <string name="enter_to_account_with_google">Указанный Email уже используется в Google аккаунте.
+        Пожалуйста, войдите через Google аккаунт.</string>
+
+    <!-- Toolbar Strings -->
+    <string name="new_advertisement">New advertisement</string>
+    <string name="add_image">Добавить изображения</string>
+    <string name="delete_image">Удалить изображения</string>
+    <string name="toolbar_all_ads">Все объявления</string>
+    <string name="toolbar_mine_ads">Мои объявления</string>
+    <string name="toolbar_favourite_ads">Избранное</string>
+
+    <!-- Activity Edit Ads Strings -->
+    <string name="select_country">* Выберите страну…</string>
+    <string name="select_city">* Выберите город…</string>
+    <string name="country">Страна</string>
+    <string name="city">Город</string>
+    <string name="index">Индекс</string>
+    <string name="index_hint">* Индекс</string>
+    <string name="telephone">Телефон</string>
+    <string name="telephone_number_hint">* Номер телефона</string>
+    <string name="email">Email</string>
+    <string name="email_hint_edit_text">Введите Email</string>
+    <string name="category">Категория</string>
+    <string name="title">Заголовок</string>
+    <string name="title_hint">* Введите заголовок</string>
+    <string name="select_category">* Выберите категорию…</string>
+    <string name="price">Цена</string>
+    <string name="price_hint">* Укажите цену</string>
+    <string name="description">Описание</string>
+    <string name="description_hint">* Введите описание</string>
+    <string name="send">Отправка</string>
+    <string name="with_send_checkbox">С отправкой</string>
+    <string name="publish">Опубликовать</string>
+    <string name="filter_done">Применить фильтр</string>
+    <string name="filter_clear">Очистить фильтр</string>
+    <string name="please_wait">Пожалуйста, подождите …</string>
+
+    <!-- Bottom Navigation Menu Strings -->
+    <string name="bottom_nav_new_advertisement">Нов. объяв.</string>
+    <string name="bottom_nav_mine_ads">Мои объяв.</string>
+    <string name="bottom_nav_favourites">Избранное</string>
+    <string name="bottom_nav_home">Домой</string>
+
+    <!-- Advertisement List Item Strings -->
+    <string name="price_title">Цена:</string>
+    <string name="telephone_title">Телефон:</string>
+    <string name="email_title">Email:</string>
+    <string name="country_title">Страна:</string>
+    <string name="city_title">Город:</string>
+    <string name="index_title">Индекс:</string>
+    <string name="with_send_title">С отправкой:</string>
+
+    <!-- Header Activity Main Strings -->
+    <string name="favourites_list_empty">Вы не добавили объявлений в избранное!</string>
+
+    <!-- DescriptionActivity Strings -->
+    <string name="with_send_true">Да</string>
+    <string name="with_send_false">Нет</string>
+
+    <!-- Ad View String -->
+    <string name="banner_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="intersticial_ad_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="filter">Фильтр</string>
+
+</resources>

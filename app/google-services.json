@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "552577584035",
+    "firebase_url": "https://bulletinboardappkotlin-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "bulletinboardappkotlin",
+    "storage_bucket": "bulletinboardappkotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552577584035:android:d6a9bfac558aa56e342816",
+        "android_client_info": {
+          "package_name": "com.example.bulletinboardappkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552577584035-qi8n3906mhbk3ejjq6ri0o8hippj9tvq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bulletinboardappkotlin",
+            "certificate_hash": "016bce10b24024d3f3a9f665b039c08709091897"
+          }
+        },
+        {
+          "client_id": "552577584035-ckag71lnd446pnv8uag08lkshtn43c85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6bIjPM7-FfclJZa6jg2oocC3sxh5QvcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552577584035-ckag71lnd446pnv8uag08lkshtn43c85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

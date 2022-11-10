@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".MainActivity">
+
+    <!-- Toolbar Activity Main -->
+    <include
+        android:id="@+id/header_activity_main"
+        layout="@layout/header_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Navigation View (Выдвижное меню)
+            app:menu="@menu/main_menu" - Меню
+            app:headerLayout="@layout/header_main_menu" - Заголовок -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        app:menu="@menu/main_menu"
+        app:headerLayout="@layout/header_main_menu"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+</androidx.drawerlayout.widget.DrawerLayout>

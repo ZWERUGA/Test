@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- Main Menu (Раздел: Объявления) -->
+    <item
+        android:id="@+id/ads_category"
+        android:title="@string/ads_title">
+        <menu>
+            <item
+                android:id="@+id/ads_mine_title"
+                android:title="@string/ads_mine_title" />
+            <item
+                android:id="@+id/ads_cars_title"
+                android:title="@string/ads_cars_title" />
+            <item
+                android:id="@+id/ads_computers_title"
+                android:title="@string/ads_computers_title" />
+            <item
+                android:id="@+id/ads_smartphones_title"
+                android:title="@string/ads_smartphones_title" />
+            <item
+                android:id="@+id/ads_appliances_title"
+                android:title="@string/ads_appliances_title" />
+        </menu>
+    </item>
+
+    <!-- Main Menu (Раздел: Аккаунт) -->
+    <item
+        android:id="@+id/account_category"
+        android:title="@string/account_title">
+        <menu>
+            <item
+                android:id="@+id/account_sign_up_title"
+                android:title="@string/account_sign_up_title" />
+            <item
+                android:id="@+id/account_sign_in_title"
+                android:title="@string/account_sign_in_title" />
+            <item
+                android:id="@+id/account_sign_out_title"
+                android:title="@string/account_sign_out_title" />
+        </menu>
+    </item>
+
+</menu>
